@@ -18,7 +18,7 @@ App.use('/api/notes',noteRouter)
 
 //Conform;
 App.get('/',(req,res)=>{
-  res.send(<h1>Don't Give up</h1>)
+  res.send(`<h1>Don't Give up</h1>`)
 })
 
 
